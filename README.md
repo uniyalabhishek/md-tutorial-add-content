@@ -22,7 +22,7 @@ Normal Text
 
 **6. Strikethrough**
 
-~~Strikethrough Text~~(Not works in GitHub preview, but will work on our site!)
+~~Strikethrough Text~~(Not works in GitHub preview, but will work after saving and on our site!)
 
 
 **7. Lists**
