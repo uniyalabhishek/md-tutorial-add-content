@@ -1,4 +1,4 @@
-**1. Normal Text**
+**1. This a Bold Text**
 
 Normal Text
 
@@ -17,21 +17,20 @@ Normal Text
 
 **5. Italic**
 
-*Italic Text*
+*This is a italic text*
 
 
 **6. Strikethrough**
 
-~~Strikethrough Text~~(Not works in GitHub preview, but will work after saving and on our site!)
+~~This is striked~~
 
 
 **7. Lists**
 
 Ordered List
 
-1. First item
-2. Second item
-3. Third item
+1. This is item 1
+2. This is item 2
 
 Unordered List
 
@@ -52,7 +51,7 @@ Unordered List
 
 Links:
 
-[linkable text](https://www.collab.land)
+[this is collab.land website](https://collab.land)
 
 Images:
 
@@ -67,10 +66,10 @@ Inline
 
 Code Block
 ```
-!Start
+!start
 !help
 ```
 
-[^1]: This is the footnote.
-
 **Adding content(markdown=.md) files to Docusaurus**
+
+Just create a new .md file with the content -> add it in the docs folder or a sub-folder inside the docs folder -> save. It's up and running. You can change the order of the documentation from meta data at the docs inside documentation, and change the Label and Position of subfolders inside _category_.json.
