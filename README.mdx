@@ -1,63 +1,75 @@
-# md-tutorial-add-content
-Markdown tutorial and adding content to Docusaurus Documentation and Blogs
+**1. Normal Text**
 
-Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
+Normal Text
 
-```text title="my-doc.md"
-// highlight-start
----
-id: my-doc-id
-title: My document title
-description: My document description
-slug: /my-custom-url
----
-// highlight-end
 
-## Markdown heading
+**2. Bold Text**
 
-Markdown text with [links](./hello.md)
+**Bold Text**
+
+
+**3. Headings**
+
+# Heading 1
+## Heading 2
+### Heading 3
+
+
+**5. Italic**
+
+*Italic Text*
+
+
+**6. Strikethrough**
+
+~~Strikethrough Text~~(Not works in GitHub preview, but will work on our site!)
+
+
+**7. Lists**
+
+Ordered List
+
+1. First item
+2. Second item
+3. Third item
+
+Unordered List
+
+- First item
+- Second item
+- Third item
+  - Subitem 3a(2 spaces)
+
+
+**8. Check box**
+
+- [x] Item 1
+- [ ] Item 2
+- [ ] Item 3
+
+
+**9. Links and Images**
+
+Links:
+
+[linkable text](https://www.collab.land)
+
+Images:
+
+![alternate text](https://avatars.githubusercontent.com/u/56363630?v=4)
+
+you can add local images path as well.
+
+**10. Code Blocks for Commands and Code**
+
+Inline
+`code`
+
+Code Block
+```
+!Start
+!help
 ```
 
-## Links
 
-Regular Markdown links are supported, using url paths or relative file paths.
 
-```md
-Let's see how to [Create a page](/create-a-page).
-```
-
-```md
-Let's see how to [Create a page](./create-a-page.md).
-```
-
-**Result:** Let's see how to [Create a page](./create-a-page.md).
-
-## Images
-
-Regular Markdown images are supported.
-
-Add an image at `static/img/docusaurus.png` and display it in Markdown:
-
-```md
-![Docusaurus logo](https://avatars.githubusercontent.com/u/56363630?v=4)
-```
-
-![Docusaurus logo](https://avatars.githubusercontent.com/u/56363630?v=4)
-
-## Code Blocks
-
-Markdown code blocks are supported with Syntax highlighting.
-
-    ```jsx title="src/components/HelloDocusaurus.js"
-    function HelloDocusaurus() {
-        return (
-            <h1>Hello, Docusaurus!</h1>
-        )
-    }
-    ```
-
-```jsx title="src/components/HelloDocusaurus.js"
-function HelloDocusaurus() {
-  return <h1>Hello, Docusaurus!</h1>;
-}
-```
