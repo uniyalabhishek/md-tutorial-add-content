@@ -71,6 +71,6 @@ Code Block
 !help
 ```
 
-Here's a sentence with a footnote. [^1]
+[^1]: This is the footnote.
 
 **Adding content(markdown=.md) files to Docusaurus**
