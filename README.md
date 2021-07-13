@@ -70,3 +70,7 @@ Code Block
 !Start
 !help
 ```
+
+Here's a sentence with a footnote. [^1]
+
+**Adding content(markdown=.md) files to Docusaurus**
